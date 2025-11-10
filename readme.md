@@ -1,52 +1,103 @@
-💻 API Express com POO (React e TypeScript)
-Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web II, ministrada pelo Prof. Bruno Zolotareff no 2º Ciclo de 2025.
+# 💻 API Express com POO (React + TypeScript)
 
-Ele consiste em uma aplicação Full Stack, utilizando Express para o backend (com Programação Orientada a Objetos - POO) e React com TypeScript para o frontend.
+Este projeto foi desenvolvido como parte da disciplina **Desenvolvimento Web II**, ministrada pelo **Prof. Bruno Zolotareff**, no **2º Ciclo de 2025**.
 
-👥 Integrantes
-Emilly Budri
+Ele consiste em uma aplicação **Full Stack**, utilizando:
 
-Iris Oliveira
+- **Backend:** Express com **TypeScript** e **Programação Orientada a Objetos (POO)**
+- **Frontend:** React com **TypeScript**
 
-Laura Cristini
+---
 
-Stela Montenegro
+## 👥 Integrantes
 
-🚀 Como Rodar o Programa
-Para executar a aplicação, você precisará iniciar o backend e o frontend separadamente em terminais diferentes.
+- **Emilly Budri**  
+- **Iris Oliveira**  
+- **Laura Cristini**  
+- **Stela Montenegro**
 
-1. Iniciar o Backend
-O backend é a API desenvolvida em Express e TypeScript.
+---
 
-Abra um novo terminal.
+## 🚀 Como Rodar o Projeto
 
-Navegue até o diretório do backend:
+A aplicação é composta por **duas partes**: o **backend** e o **frontend**.  
+Você precisará executá-las em **terminais separados**.
 
-Instale as dependências (somente na primeira vez):
-npm install
+---
 
-Compile o código TypeScript para JavaScript:
-npm run build
+### 🧩 1. Iniciar o Backend (API Express)
 
-Inicie o servidor backend:
-npm start
-Resultado Esperado: Você deverá ver uma mensagem indicando que a API está rodando, como [API] API RESTful rodando em: http://localhost:3000.
+O backend é a API desenvolvida em **Express** e **TypeScript**.
 
-2. Iniciar o Frontend
-O frontend é a interface desenvolvida em React e TypeScript.
+1. Abra um novo terminal.  
+2. Navegue até o diretório do backend:
+   ```bash
+   cd backend
+   ```
+3. Instale as dependências (somente na primeira vez):
+   ```bash
+   npm install
+   ```
+4. Compile o código TypeScript para JavaScript:
+   ```bash
+   npm run build
+   ```
+5. Inicie o servidor backend:
+   ```bash
+   npm start
+   ```
 
-Abra outro novo terminal (mantenha o terminal do backend rodando).
+📍 **Resultado esperado:**  
+Você verá uma mensagem semelhante a:
+```
+[API] API RESTful rodando em: http://localhost:3000
+```
 
-Navegue até o diretório do frontend
+---
 
-Instale as dependências (somente na primeira vez):
-npm install
+### 💻 2. Iniciar o Frontend (React + TypeScript)
 
-Inicie o servidor de desenvolvimento do frontend:
-npm run dev
+O frontend é a interface desenvolvida em **React** e **TypeScript**.
 
-Resultado Esperado: Você verá uma URL (geralmente http://localhost:5173 ou similar). Abra essa URL no seu navegador para acessar a aplicação.
+1. Abra outro terminal (mantenha o backend rodando).  
+2. Navegue até o diretório do frontend:
+   ```bash
+   cd frontend
+   ```
+3. Instale as dependências (somente na primeira vez):
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
 
-⚠️ Nota Importante:
+📍 **Resultado esperado:**  
+O terminal exibirá uma URL semelhante a:
+```
+http://localhost:5173
+```
+Abra esse endereço no seu navegador para acessar a aplicação.
 
-Certifique-se de que ambos os terminais permaneçam abertos e os processos do backend e frontend estejam rodando para que a aplicação funcione corretamente e o frontend consiga se comunicar com a API.
+---
+
+## ⚠️ Nota Importante
+
+Certifique-se de que **ambos os terminais permaneçam abertos**, com o **backend** e o **frontend** rodando simultaneamente.  
+Dessa forma, o frontend poderá se comunicar corretamente com a API.
+
+---
+
+## 📚 Tecnologias Utilizadas
+
+- Node.js  
+- Express  
+- TypeScript  
+- React  
+- Vite  
+- POO (Programação Orientada a Objetos)
+
+---
+
+🧠 **Desenvolvido com dedicação para a disciplina de Desenvolvimento Web II.**
