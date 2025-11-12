@@ -57,7 +57,7 @@ const AdminPanel: React.FC = () => {
   const handleSaveUser = async (user: User) => {
     try {
       if (user.id) {
-        await fetch(`${url}/usuarios/${user.id}`, {
+        await fetch(`${url}/usuarios`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(user),
